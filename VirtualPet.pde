@@ -28,7 +28,6 @@ void draw() {
 
 void mydraw() {
   { // 
-    clear();
     redraw = false;
     
   }

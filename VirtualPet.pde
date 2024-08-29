@@ -5,8 +5,8 @@ Point[] points;
 void setup() {
   redraw = true;
   size(400, 400);
-  rock = loadImage("rock.gif");
-  image(rock, 0,0 );
+  //rock = loadImage("rock.gif");
+  //image(rock, 0,0 );
   
   Point p = new Point(0.0, 0.0);
   Point q = new Point(200.0, 200.0);
@@ -15,6 +15,7 @@ void setup() {
 }
 
 void draw() {
+  mydraw();/*
   if ((pmouseX != pmouseX) || (pmouseY != mouseY)) {
     redraw = true;
   }
@@ -22,7 +23,7 @@ void draw() {
   }
   if (redraw) {
     mydraw();
-  }
+  }*/
 }
 
 void mydraw() {

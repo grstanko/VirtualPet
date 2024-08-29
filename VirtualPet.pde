@@ -32,7 +32,6 @@ void mydraw() {
   }
   { // Background
     background(30, 30, 46);
-    image(rock, 0, 0);
   }
   fill(88, 91, 112);
   ellipse(200, 200, 280, 280);
